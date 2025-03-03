@@ -206,11 +206,11 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: 0.13538313, y: -0, z: -0, w: 0.99079335}
-  m_LocalPosition: {x: 0, y: 8.03, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 4.3293734, z: -1.9047619}
+  m_LocalScale: {x: 0.62472665, y: 0.59257007, z: 0.20105653}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1455465174}
   m_LocalEulerAnglesHint: {x: 15.562, y: 0, z: 0}
 --- !u!114 &330585547
 MonoBehaviour:
@@ -678,7 +678,7 @@ Transform:
   m_GameObject: {fileID: 1072248801}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.4}
+  m_LocalPosition: {x: 0, y: 0, z: 450}
   m_LocalScale: {x: 1, y: 1, z: 94.1882}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -793,6 +793,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2109885979}
+  - {fileID: 330585546}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1455465175
@@ -839,6 +840,9 @@ MonoBehaviour:
   liftBooster: 0.5
   drag: 0.001
   angularDrag: 0.001
+  yawPower: 50
+  pitchPower: 50
+  rollPower: 30
 --- !u!1 &1494445900
 GameObject:
   m_ObjectHideFlags: 0
@@ -1101,7 +1105,6 @@ MeshFilter:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 330585546}
   - {fileID: 410087041}
   - {fileID: 832575519}
   - {fileID: 1072248805}
